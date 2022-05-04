@@ -1,0 +1,7 @@
+mode: Mainline
+next-version: 1.0.0
+branches:
+  main:
+    regex: ^latest$
+  pull-request:
+    tag: pr
