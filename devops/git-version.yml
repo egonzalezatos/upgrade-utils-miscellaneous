@@ -2,6 +2,7 @@ mode: Mainline
 next-version: 1.0.0
 branches:
   main:
-    regex: ^latest$
+    regex: ^main$
+    source-branches: [ 'main']
   pull-request:
     tag: pr
