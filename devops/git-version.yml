@@ -4,5 +4,8 @@ branches:
   main:
     regex: ^main$
     source-branches: [ 'main']
+  develop:
+    regex: ^develop$
+    source-branches: [ 'develop']
   pull-request:
     tag: pr
